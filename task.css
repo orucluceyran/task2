@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+
+.div1 {
+    background-image: url(photos/0137912662a1b7b98a0e30dc18500678.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: brightness(50%); */
+    position: relative;
+}
+
+/* .kanit-thin {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: bold;
+    color: rgb(255, 132, 44);
+    text-shadow: 3px 2px 8px rgba(205, 81, 0, 0.55);
+    font-size: 100px;
+    margin-top: 0px;
+    margin-left: 500px;
+
+} */
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #D24545;
+    text-shadow: 3px 2px 8px rgba(247, 144, 17, 0.486);
+    font-size: 100px;
+    margin-top: 0px;
+    margin-left: 500px;
+    background: linear-gradient(to right, #FF004D, #FF9843, #E6BAA3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 30px;
+    
+}
+
+ul {
+    margin: 0;
+    padding-right: 50px;
+
+
+}
+
+li {
+    display: inline;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    text-shadow: 4px 2px 5px rgba(255, 255, 255, 0.31);
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+
+nav {
+    background-color: #D24545;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 80px;
+
+}
+
+
+.logo img {
+    margin-left: 80px;
+    width: 50px;
+    height: auto;
+    border-radius: 150px;
+}
+
+.roboto-mono {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 30px;
+    font-style: normal;
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 3px 2px 2px #d2454556;
+}
+
+p {
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 15px;
+
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: inline;
+    justify-content: space-between;
+}
+
+.div2 {
+    border: 3px solid rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;  
+    margin: 10px;
+    box-shadow: 1px 1px 12px 1px #D24545;
+    -webkit-box-shadow: 1px 1px 12px 1px #D24545;
+    -moz-box-shadow: 1px 1px 12px 1px #D24545;
+
+}
+
+.div3{
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
