@@ -44,7 +44,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-top: 30px;
-    
+
 }
 
 ul {
@@ -109,23 +109,35 @@ p {
     justify-content: space-between;
 }
 
-.div2 {
+.div3 {
     border: 3px solid rgba(0, 0, 0, 0.7);
     border-radius: 5px;
     width: 200px;
-    height: 200px;  
+    height: 200px;
     margin: 10px;
     box-shadow: 1px 1px 12px 1px #D24545;
     -webkit-box-shadow: 1px 1px 12px 1px #D24545;
     -moz-box-shadow: 1px 1px 12px 1px #D24545;
+    /* padding: 3px;
+    margin: 10px; */
+
+
 
 }
 
-.div3{
+.div2 {
     margin-top: 30px;
-    width: 100%;
+    margin-left: 300px;
+    width: 60%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+
+
 }
+
+
